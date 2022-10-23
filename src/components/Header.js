@@ -1,5 +1,6 @@
 import React from "react"
 import "../styles/Header.css"
+import "../styles/MediaQueries.css"
 import ProfilePhoto from "../images/femille.jpg"
 import { FaLinkedin, FaGithub, FaMapPin } from "react-icons/fa"
 
@@ -11,7 +12,6 @@ const Header = () => {
       <section className="profile__section">
         <h1 className="name">Frances Fogarty</h1>
         <p className="role">Full-Stack Developer</p>
-        <p className="role">MERN Stack</p>
       </section>
 
       <section>

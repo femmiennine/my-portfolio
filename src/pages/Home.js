@@ -4,6 +4,7 @@ import About from "../components/About"
 import Projects from "../components/Projects"
 import Interest from "../components/Interest"
 import "../styles/Home.css"
+import "../styles/MediaQueries.css"
 import projects from "../data"
 
 const Home = () => {
