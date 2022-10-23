@@ -1,16 +1,10 @@
-/* MEDIA QUERIES */
-
 @media screen and (min-width: 600px) {
     .app__container {
-        display: flex;
         flex-direction: row;
-        gap: 5rem;
+        gap: 2 rem;
     }
 
     .header__container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         min-width: 30vh;
     }
 }
