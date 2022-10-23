@@ -1,0 +1,60 @@
+/* Containers */
+.header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.profile__section,
+.social__section {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem
+}
+
+/* Profile Section */
+.profile__section {
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profile__photo {
+    max-width: 150px;
+    border: 1px solid #dedede;
+    border-radius: 15px;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+/* Social Section */
+.social__section {
+    list-style: none;
+}
+
+.social__section li {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.social__section li a {
+    text-decoration: none;
+    color: black;
+}
+
+.social__section li a:hover {
+    color: #3B5998;
+}
+
+.social__section li a:visited {
+    color: #36013F;
+}
+
+.icon {
+    color: #3B5998;
+}

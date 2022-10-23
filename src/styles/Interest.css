@@ -1,0 +1,29 @@
+.interest__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.section__interest {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    border: 1px solid #dedede;
+    border-radius: 15px;
+    padding: 30px;
+    width: 100px;;
+    height: 150px;
+}
+
+.logo p {
+    font-size: .8rem;
+}

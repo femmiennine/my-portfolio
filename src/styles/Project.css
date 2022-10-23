@@ -1,0 +1,45 @@
+.section__projects {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: white;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.repo__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+
+.description,
+.tech__stack {
+    font-size: .8rem;
+}
+
+.description {
+    max-width: 75ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tech__icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+
+.javascript {
+    color: #fdd023;
+}
+
+.react {
+    color: #61dafb;
+}
